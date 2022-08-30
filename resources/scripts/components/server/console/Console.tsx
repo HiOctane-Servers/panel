@@ -20,9 +20,11 @@ import 'xterm/css/xterm.css';
 import styles from './style.module.css';
 
 const theme = {
-    background: th`colors.black`.toString(),
+    // background: th`colors.black`.toString(),
+    background: '#181818',
     cursor: 'transparent',
-    black: th`colors.black`.toString(),
+    // black: th`colors.black`.toString(),
+    black: '#181818',
     red: '#E54B4B',
     green: '#9ECE58',
     yellow: '#FAED70',
@@ -38,7 +40,7 @@ const theme = {
     brightMagenta: '#C792EA',
     brightCyan: '#89DDFF',
     brightWhite: '#ffffff',
-    selection: '#FAF089',
+    selection: '#888888',
 };
 
 const terminalProps: ITerminalOptions = {
@@ -52,7 +54,7 @@ const terminalProps: ITerminalOptions = {
 };
 
 export default () => {
-    const TERMINAL_PRELUDE = '\u001b[1m\u001b[33mcontainer@pterodactyl~ \u001b[0m';
+    const TERMINAL_PRELUDE = '\u001b[1m\u001b[33mconsole@hioctane-panel~ \u001b[0m';
     const ref = useRef<HTMLDivElement>(null);
     const terminal = useMemo(() => new Terminal({ ...terminalProps }), []);
     const fitAddon = new FitAddon();
