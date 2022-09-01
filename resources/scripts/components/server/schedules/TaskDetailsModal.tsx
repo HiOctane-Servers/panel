@@ -146,7 +146,7 @@ const TaskDetailsModal = ({ schedule, task }: Props) => {
                         {values.action === 'command' ? (
                             <div>
                                 <Label>Payload</Label>
-                                <FormikFieldWrapper className={'text-black'} name={'payload'}>
+                                <FormikFieldWrapper name={'payload'}>
                                     <FormikField as={Textarea} name={'payload'} rows={6} />
                                 </FormikFieldWrapper>
                             </div>
