@@ -20,15 +20,15 @@
 $style = [
     /* Layout ------------------------------ */
 
-    'body' => 'margin: 0; padding: 0; width: 100%; background-color: #151515;',
-    'email-wrapper' => 'width: 100%; margin: 0; padding: 0; background-color: #151515;',
+    'body' => 'margin: 0; padding: 0; width: 100%; background-color: #131522;',
+    'email-wrapper' => 'width: 100%; margin: 0; padding: 0; background-color: #131522;',
 
     /* Masthead ----------------------- */
 
     'email-masthead' => 'padding: 18px 0; text-align: center;',
-    'email-masthead_name' => 'font-size: 16px; font-weight: bold; color: #CCCCCC; text-decoration: none; text-shadow: 0 1px 0 white;',
+    'email-masthead_name' => 'display: inline-block; font-size: 16px; font-weight: bold; color: #007bf5; text-decoration: none; text-shadow: 0 1px 0 white;',
 
-    'email-body' => 'width: 100%; margin: 0; padding: 0; border-top: 1px solid #1A1A1A; border-bottom: 1px solid #1A1A1A; background-color: #1A1A1A;',
+    'email-body' => 'width: 100%; margin: 0; padding: 0; border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(0, 0, 0, 0.1); background-color: #131522;',
     'email-body_inner' => 'width: auto; max-width: 570px; margin: 0 auto; padding: 0;',
     'email-body_cell' => 'padding: 35px;',
 
@@ -71,7 +71,7 @@ $style = [
                     <tr>
                         <td style="{{ $style['email-masthead'] }}">
                             <a style="{{ $fontFamily }} {{ $style['email-masthead_name'] }}" href="{{ url('/') }}" target="_blank">
-                                <img src="https://hioctane.org/data/hioctane.png" alt="HiOctane" style="width: 132px; height: 22px;">
+                                <img src="https://hioctane.org/images/logo/hioctane.png" alt="HiOctane" style="display: block; width: 132px; height: 22px;">
                             </a>
                         </td>
                     </tr>
