@@ -29,7 +29,7 @@ const RightNavigation = styled.div`
         &:active,
         &:hover,
         &.active {
-            box-shadow: inset 0 -2px ${theme`colors.primary`.toString()};
+            box-shadow: inset 0 -2px ${theme`colors.primary-500`.toString()};
         }
     }
 `;
@@ -52,7 +52,7 @@ export default () => {
             <SpinnerOverlay visible={isLoggingOut} />
             <div className={'mx-auto w-full grid grid-cols-header items-center h-[3.5rem] max-w-[1200px]'}>
                 <div id={'logo'}>
-                    <Link to={'/'} className={'text-2xl grid font-header px-4 no-underline text-primary'}>
+                    <Link to={'/'} className={'text-2xl grid font-header px-4 no-underline text-primary-500'}>
                         <svg
                             className={'w-auto h-6 text-inherit fill-current'}
                             version='1.0'
