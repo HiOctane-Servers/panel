@@ -20,10 +20,10 @@ const RightNavigation = styled.div`
         ${tw`flex items-center h-full no-underline text-neutral-300 px-6 cursor-pointer transition-all duration-150`};
 
         &:active {
-            ${tw`bg-primary/10`}
+            ${tw`bg-primary-500/10`}
         }
         &:hover {
-            ${tw`text-black bg-primary`};
+            ${tw`text-black bg-primary-500`};
         }
 
         &:active,

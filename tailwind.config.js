@@ -13,6 +13,10 @@ const gray = {
     900: 'hsl(0, 0%, 9%)',
 };
 
+const primary = {
+    500: 'hsl(210, 100%, 48%)',
+};
+
 module.exports = {
     content: ['./resources/scripts/**/*.{js,ts,tsx}'],
     theme: {
@@ -24,7 +28,7 @@ module.exports = {
                 black: '#131a20',
                 // "primary" and "neutral" are deprecated, prefer the use of "blue" and "gray"
                 // in new code.
-                primary: '#007bf5',
+                primary: primary,
                 gray: gray,
                 neutral: gray,
                 cyan: colors.cyan,
