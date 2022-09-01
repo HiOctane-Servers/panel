@@ -14,7 +14,8 @@ const gray = {
 };
 
 const primary = {
-    500: 'hsl(210, 100%, 48%)',
+    50: 'hsl(170, 16%, 65%)', // opal
+    500: 'hsl(210, 100%, 48%)', // azure
 };
 
 module.exports = {
