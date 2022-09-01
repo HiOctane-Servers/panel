@@ -41,6 +41,7 @@ module.exports = {
                 gray: gray,
                 neutral: gray,
                 cyan: colors.cyan,
+                console: '#181818',
             },
             fontSize: {
                 '2xs': '0.625rem',
@@ -52,7 +53,7 @@ module.exports = {
                 default: theme('colors.neutral.400', 'currentColor'),
             }),
             gridTemplateColumns: {
-                header: 'auto 1fr',
+                header: 'max-content 1fr',
             },
         },
     },
