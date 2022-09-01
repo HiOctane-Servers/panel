@@ -29,7 +29,7 @@ const RightNavigation = styled.div`
         &:active,
         &:hover,
         &.active {
-            box-shadow: inset 0 -2px ${theme`colors.primary-500`.toString()};
+            box-shadow: inset 0 -2px ${theme`colors.primary.500`.toString()};
         }
     }
 `;
